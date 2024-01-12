@@ -1,0 +1,89 @@
+<!-- Typing "!" and pressing spacebar to create a boilerplate for html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<!-- Typical header for website -->
+<h1>Creating forms practice</h1>
+<h3>Radio input</h3>
+<!-- creating a form for users to input date
+start this with '<form' element.
+then using the 'action' attribute to define where the data is stored i.e password.php-->
+<!-- don't forget to close with '>' -->
+<form action="a data storing file here">
+    <!-- Creating an input using '<input' element. 
+    Defining the type of input with the action 'type'
+    using the action 'id' to link our input to a label-->
+    <input type="radio" id="radiotest1">
+    <!-- labling our input and linking to our id
+    create a label with '<label' element
+    declaring what id with the 'for=""' action and entering the linking 'id' action 
+    followed with '>' which will contain the text that is displayed on the webpage-->
+    <label for="radiotest1">Testing Radio 1</label>
+    <!-- <br> element to break up radio buttons to another line -->
+    <br>
+    <!-- repeating the above steps to create more radio buttons -->
+    <input type="radio" id="radiotest2">
+    <label for="radiotest2">Testing Radio 2</label>
+    <br>
+    <input type="radio" id="radiotest3">
+    <label for="radiotest3">Testing Radio 3</label>
+    
+    <h3>Checkbox input</h3>
+
+    <!-- Creating a 'checkbox ' type input' using the  -->
+    <input type="checkbox" id="checkboxtest1">
+    <label for="checkboxtest1" placeholder="Checkbox1" required> Checkboxtest1</label>
+    <br>
+    <input type="checkbox" id="checkboxtest2">
+    <label for="checkboxtest2" placeholder="Checkbox2" required> Checkboxtest2</label>
+    <br>
+    <input type="checkbox" id="checkboxtest3">
+    <label for="checkboxtest3" placeholder="Checkbox3" required> Checkboxtest3</label> 
+    
+    <h3>File input</h3>
+    
+    <label for="passwords.php"></label>
+    <input type="file" id="myfile" name="passwords.php">
+    
+    <h3>Textarea Input</h3>
+    
+    <label for="textarea">Enter your text:</label>
+
+    <textarea id="textarea" name="textarea" rows="4" cols="50">
+    This placeholder text in the text area.
+    </textarea>
+    
+    <br>
+    <br>
+
+    <label for="weaponType">Choose your weapon: </label>
+    
+    <select name="weaponType" id="weapontype"></select>
+      <option value="sword">Sword</option>
+      <option value="axe">Axe</option>
+      <option value="Stave">Stave</option>
+    </select>
+
+    <input type="reset" value="Clear">
+        
+        <br>
+
+        <input type="Submit">
+
+
+
+
+
+
+
+</form>
+
+    
+</body>
+</html>

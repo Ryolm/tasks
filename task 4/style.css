@@ -1,0 +1,38 @@
+* {background-color: antiquewhite;}
+
+
+
+* {
+    font-family: 'Oldenburg', serif;
+  }
+
+
+
+#Nav {
+    color: greenyellow;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#header {
+    background-color: green;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+         }
+
+
+
+.heading {
+    background-color: burlywood;
+    margin: auto;
+    padding: 20;
+    text-align: justify;
+}
+.article {
+    margin: auto;
+    padding: 20;
+    text-align: justify;
+}
